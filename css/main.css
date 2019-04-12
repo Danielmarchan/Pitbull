@@ -102,164 +102,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* HERO */
-.bg-hero {
-    background-image: url(../img/leaf.jpg);
-    background-size: cover;
-    padding: 50px 0;
-    position: relative;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.15);
-}
-img.logo {
-    max-width: 250px;
-    margin: 25px auto 75px auto;
-    display: block;
-    filter: invert(100%);
-}
-h2.left-title1 {
-    padding: 15px;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.5);
-    color: #F16321;
-    font-weight: 700;
-}
-.main-title {
-    font-size: 3rem;
-    margin-bottom: 75px;
-    font-weight: 700;
-}
-section.hero {
-    color: white;
-}
-ul.left-title-checklist {
-    list-style: none;
-    padding: 0;
-}
-ul.left-title-checklist i {
-    color: #75c224;
-    font-size: 2rem;
-    display: block;
-    margin-right: 10px;
-}
-ul.left-title-checklist li {
-  background: rgba(0, 0, 0, 0.25);
-  padding: 15px;
-  margin: 15px 0px;
-}
-ul.left-title-checklist .list-item {
-    display: flex;
-}
-.product-image-wrapper {
-    position: absolute!important;
-    z-index: 1;
-}
-.product-image-wrapper img {
-    max-height: 305px;
-}
-h3.left-title2 {
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 7.5px 15px;
-    display: block;
-    border: solid 1.5px white;
-    font-weight: 400;
-}
-.hero-bottom-arrow {
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(to right, #F9AC3A, #EF651A);
-    padding: 15px;
-    text-align: center;
-    height: 70px;
-    z-index: 1;
-}
-.hero-bottom-arrow:after {
-    transform: rotate(45deg);
-    content: "";
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: #EF651A;
-    position: absolute;
-    right: -24px;
-    top: 10px;
-}
-.hero-bottom-arrow h3 {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin: auto;
-}
-span.red {
-    color: #D8132E;
-    font-weight: 700;
-}
-.hero-form {
-    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
-    background-image: linear-gradient(to bottom, #FFFEFC, #E6E6E6);
-    color: #5E5E5E;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-}
-form.hero-form h3 {
-    color: #F16321;
-    text-transform: uppercase;
-}
-.hero-form p {
-    line-height: 2.5rem;
-}
-.hero-form input, .hero-form select {
-    padding: 15px;
-    border: solid 1px #ddd;
-    margin: 7.5px 0;
-    border-radius: 3px;
-}
-input.btn.sbmt-btn {
-    background-image: linear-gradient(to bottom, #86D625, #5DB115);
-    color: white;
-    font-weight: 600;
-    font-size: 1.5rem;
-}
-p.disclaimer-text {
-    font-size: 0.75rem;
-}
-
-/* TRUST ELEMENTS */
-.trust-elements {
-    border-bottom: 1px solid #eee;
-}
-
-/* PAGE CONTENT */
-h1.main-content-title {
-    text-transform: uppercase;
-    border: solid 1.5px #ddd;
-    padding: 15px 25px;
-    text-align: center;
-    width: fit-content;
-    color: #5E5E5E;
-}
-.page-content h3 {
-    color: #F16321;
-    font-style: italic;
-}
-.page-content p {
-  color: #999;
-}
-/* TESTIMONIALS */
-.carousel-cell {
-  width: 100%;
-}
 
  /* ==========================================================================
    Helper classes
@@ -434,4 +276,86 @@ h1.main-content-title {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* #FD5626 */
+/* CUSTOM STYLES; */
+h1, h2, h3, h4, h5, h6, a, p {
+  color: white!important;
+}
+body {
+  background-color: #000!important;
+  color: white;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+section.hero {
+    color: white;
+    background: url(../img/noise.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-text-box h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+.hero-text-box span {
+    color: #0c85ff;
+}
+hr.hero-line {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+form.hero-form {
+    background: white;
+    box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2), 0px 12px 17px 2px rgba(0,0,0,0.14), 0px 5px 22px 4px rgba(0,0,0,0.12) !important;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.hero-form h1, .hero-form h2, .hero-form h3, .hero-form h4, .hero-form h5, .hero-form h6, .hero-form a, .hero-form p {
+  color: #000!important;
+}
+form.hero-form input {
+    border: solid 1px #ddd;
+    padding: 15px;
+    border-radius: 100px;
+    margin: 7.5px 0;
+}
+input.hero-submit {
+    background: #0c85ff;
+    color: white;
+    font-weight: 700;
+}
+.hero-text-box p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+section.hero-cards {
+    background: #222;
+    padding: 50px 0;
+}
+hr.thicc-line {
+    border: 4px solid white;
+    width: 75px;
+}
+section.huge-banner {
+    background: url(img/Valencia_Hero.jpg);
+    height: 800px;
+    background-size: cover;
 }
