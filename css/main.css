@@ -293,7 +293,7 @@ body {
 section.hero {
     color: white;
     background: url(../img/noise.jpg);
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -306,7 +306,7 @@ section.hero {
     right: 0;
     left: 0;
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.65);
 }
 .hero-text-box h1 {
     font-size: 5.5rem;
@@ -317,7 +317,6 @@ section.hero {
 }
 hr.hero-line {
     border: 2px solid white;
-    border-radius: 5px;
 }
 form.hero-form {
     background: white;
@@ -355,7 +354,15 @@ hr.thicc-line {
     width: 75px;
 }
 section.huge-banner {
-    background: url(img/Valencia_Hero.jpg);
+    background: url(../img/Valencia_Hero.jpg);
     height: 800px;
     background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.huge-banner-text-box {
+  padding: 50px;
+}
+.huge-banner-text-box h1 {
+    font-size: 3rem;
 }
