@@ -538,6 +538,9 @@ footer {
   section.hero {
       background-position: -350px;
   }
+  .map iframe {
+    height: 300px;
+}
 }
 @media (max-width: 550px) {
   .presented-by {
