@@ -348,6 +348,11 @@ input.hero-submit, .cta-btn {
     margin: 7.5px 0;
     display: inline-block;
 }
+input.hero-submit:hover, .cta-btn:hover {
+  text-decoration: none;
+  background: white;
+  color: #cfac67!important;
+}
 .hero-text-box p {
     font-size: 1.5rem;
     font-weight: 600;
@@ -377,6 +382,7 @@ p.hero-info {
     background: linear-gradient(#000, transparent);
     right: 0;
     left: 0;
+    z-index: 1;
 }
 .extra-info span {
     color: #cfac67;
@@ -411,7 +417,6 @@ section.attorney-info {
 /*Valencia Banner*/
 section.huge-banner {
     position: relative;
-    z-index: -1;
 }
 .huge-banner-text-box h1 {
     font-weight: 700;
